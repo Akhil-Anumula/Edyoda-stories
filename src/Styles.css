@@ -1,0 +1,186 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#header{
+    background-color: #fff;
+    height: 100px;
+    width:100%;
+    border: solid 1px silver;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+body{
+    margin:0px; 
+    background-color: #f2f6ff;
+}
+.main{
+    display: inline-block;
+    width: 23%;    
+}
+.main a{
+    text-decoration: none;
+    color: #f2f6ff;
+
+}
+.main p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#logo{
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 800;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 80px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+}
+#logo a{
+    text-decoration: none;
+    color: #0084ff;
+} 
+#logot{
+    font-size: 20px;
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    padding-left: 80px;
+    margin-top: 0px;
+    
+}
+#dd{
+    height: 50%;
+    font-size: 20px;
+    font-weight: 300;
+    margin-left: 50px;
+    display: inline;
+
+}
+    #homebutton{
+        background-color: #0084ff;
+        height: 55px;
+        width: 150px;
+        padding: 5px;
+        border-radius: 16px;
+        color: white;
+        font-size: 14px;
+        font-weight: 700;
+        font-family: 'Raleway', sans-serif;
+        text-decoration: none;
+    }
+#menu{
+    width: 75%;
+    margin: auto;
+}    
+
+h1{
+    margin-bottom: 0px;
+} 
+#fp{
+    font-size: 16px;
+    font-weight: 500;
+} 
+.button{
+    Padding: 6px 14px;
+    Width: auto;
+    color: #0084ff;
+    background-color: #f2f6ff;
+    Border-radius: 15px;
+    Border: 1px solid #0084ff;
+    margin: 5px;
+    Cursor: pointer;
+    font-size: 12px;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+    
+    
+}
+#menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+.cards{
+    display: inline-block;
+    width: 31%;
+    
+    margin: 10px 8px;
+    border: solid 1px #0084ff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px grey;
+    background-color: rgba(255,255,255);
+
+}
+.cards :hover{
+    background-color: seashell;
+    cursor: pointer;
+}
+.img{
+    width: 100%;
+    height: 180px;
+    margin: 0px;
+    padding: 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.title{
+    font-size: 18px;
+    
+    Margin: 10px 10px;
+    font-weight: 600;
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    
+}
+.text{
+    
+    font-Size: 16px;
+    font-weight: 550;
+    Line-height: 1.43;
+    color: rgb(0,0,0,.6);
+    padding: 5px 5px;
+    margin: 5px 5px;
+    font-family: 'Raleway', sans-serif;
+}
+.author{
+    color: #0096ff;
+    padding: 5px;
+  padding-left:10px;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: bold;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-family: 'Raleway', sans-serif;
+}
+.date{
+    color: black;
+    font-size: 14px;
+    font-family: roboto;
+    padding-left: 5px;
+  font-weight:300;
+}
+#footer{
+    background-color: #172146;
+    width: 100%;
+    height: 180px;
+    text-align: center;
+}
+#footer h3{
+    margin: 0px;
+    padding: 0px;
+}
+#footer li:hover{
+    cursor: pointer;
+}
+#footer ul{
+    color: snow;
+    font-size: 18px;
+    padding: 5px;
+    list-style-type: none;
+}
+#footer p{
+    color: snow;
+    margin: 0px;
+}
